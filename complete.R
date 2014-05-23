@@ -4,7 +4,7 @@ complete <- function(directory, id) {
 
   ## 'id' is an integer vector indicating the monitor ID numbers
   ## to be used
-       filepath<-paste(c("/Users/shurik/Documents/Olesya/RProjects/",directory,"/"),collapse="")
+       filepath<-paste(c("/Users/Documents/Olesya/RProjects/",directory,"/"),collapse="")
        setwd(filepath)
        final<-data.frame()
        filename<-dir()
